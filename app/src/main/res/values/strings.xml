@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AHMAD-TAUFIQ-HIDAYAT_1202152178_MODUL5</string>
+    <string-array name="Color">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+</resources>
