@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="To Do List">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddToDo" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".AddToDoActivity"
+            android:label="Add To DO"/>
+        <activity android:name=".SettingActivity"
+            android:label="Pengaturan"></activity>
     </application>
 
 </manifest>
